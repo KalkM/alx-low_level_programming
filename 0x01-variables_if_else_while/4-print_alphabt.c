@@ -10,11 +10,18 @@ int n;
 n = 0;
 while (n != 26 && n != 4 && n != 16)
 {
+if (n == 26)
+putchar ('\n');
+elseif (n == 4)
+n++;
+elseif (n == 16)
+n++;
+else
+{
 putchar (ch);
 n++;
 ch++;
-if (n == 26)
-putchar ('\n');
+}
 }
 return (0);
 }
