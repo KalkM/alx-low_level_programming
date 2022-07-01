@@ -8,20 +8,21 @@ int main(void)
 char ch = 'a';
 int n;
 n = 0;
-while (n != 26 && n != 4 && n != 16)
+while (n != 26)
 {
-if (n == 26)
-putchar ('\n');
-elseif (n == 4)
-n++;
-elseif (n == 16)
-n++;
-else
+if (ch == 'e')
 {
+ch++;
+}
+if (ch == 'q')
+{
+ch++;
+}
 putchar (ch);
 n++;
 ch++;
-}
+if (n == 26)
+putchar ('\n');
 }
 return (0);
 }
