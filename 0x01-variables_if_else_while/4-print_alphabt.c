@@ -8,7 +8,7 @@ int main(void)
 char ch = 'a';
 int n;
 n = 0;
-while (n != 26)
+while (n != 24)
 {
 if (ch == 'e')
 {
@@ -21,7 +21,7 @@ ch++;
 putchar (ch);
 n++;
 ch++;
-if (n == 26)
+if (n == 24)
 putchar ('\n');
 }
 return (0);
