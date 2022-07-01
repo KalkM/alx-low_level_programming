@@ -12,7 +12,7 @@ int main(void)
         putchar (ch);
         n++;
         ch++;
-    if (i == 26)
+    if (n == 26)
         putchar ('\n');
     }
 return (0);
