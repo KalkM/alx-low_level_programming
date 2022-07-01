@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
-*main - prints out the alphabet
-*returns: 0
-*/
+/**
+ *main - print the alphabet in lowercase
+ *Return: 0
+ */
 int main(void)
 {
 char ch = 'a';
