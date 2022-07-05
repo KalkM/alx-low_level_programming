@@ -33,6 +33,6 @@ _putchar((char)(k + '0'));
 }
 _putchar('\n');
 i = 0;
-k++;
+j++;
 }
 }
