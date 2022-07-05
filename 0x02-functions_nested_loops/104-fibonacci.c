@@ -6,8 +6,7 @@
 int main(void)
 {
 int count;
-unsigned long i, j, k;
-unsigned long x, y, z, a;
+unsigned long i, j, k, x, y, z, a;
 count = 0;
 i = 0;
 j = 1;
