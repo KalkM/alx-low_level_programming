@@ -2,21 +2,21 @@
 #include <stdio.h>
 /**
  * print_to_98 - print all natural numbers from n to 98.
- * @i: the number to start counting from to 98
+ * @n: the number to start counting from to 98
  * Return: void returns nothing.
  */
-void print_to_98(int i)
+void print_to_98(int n)
 {
-if (i < 98)
+if (n < 98)
 {
-for i = i; i < 98; i++)
-printf("%d, ", i);
+for n = n; n < 98; n++)
+printf("%d, ", n);
 printf("%d\n", 98);
 }
 else
 {
-for (i = i; i > 98; i--)
-printf("%d, ", i);
+for (n = n; n > 98; n--)
+printf("%d, ", n);
 printf("%d\n", 98);
 }
 }
