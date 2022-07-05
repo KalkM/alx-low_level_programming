@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- *print_alphabet - Do something
- *Return: Return something
+ *print_alphabet - prints the English alphabet from a to z
+ *Return: Nothing
  */
 void print_alphabet(void)
 {
-char alp = 'a';
-while (alp <= 'z')
+char c = 'a';
+while (c <= 'z')
 {
-_putchar(alp);
-alp++;
+_putchar(c);
+c++;
 }
 _putchar('\n');
 }
