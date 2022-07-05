@@ -24,8 +24,8 @@ j = j / 1000;
 while (count <= 98)
 {
 a = (x + y) / 1000;
-z = (x + y) - a * 1000;
-k = (i + j) + a;
+z = (x + y) -a * 1000;
+k = (i + j) +a;
 x = y;
 y = z;
 i = j;
