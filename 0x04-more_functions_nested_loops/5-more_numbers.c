@@ -14,12 +14,12 @@ while (i < 10)
 for (j = 0; j < 15; j++)
 {
 if (j > 9)
-_putchar((char)(j / 10 + 48 ));
+_putchar((char)(j / 10 + 48));
 _putchar ((char)(j % 10 + 48));
 }
 i++;
 _putchar('\n');
 }
-if (i== 10)
+if (i == 10)
 return;
 }
