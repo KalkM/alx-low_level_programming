@@ -6,35 +6,29 @@
 
 int main(void)
 {
-int i = 1;
-while (i <= 100)
+int i;
+for (i = 1; i < 101; i++)
 {
-if (i % 15 == 0)
+if ((i % 3 == 0) && (i % 5 == 0))
 {
 printf("FizzBuzz ");
-i++;
 }
-if (i % 3 == 0)
+else if (i % 3 == 0)
 {
 printf("Fizz ");
-i++;
 }
-if ((i % 5 == 0)  && (i != 100))
+else if (i % 5 == 0)
 {
+if (i < 100)
 printf("Buzz ");
-i++;
-}
-if (i == 100)
-{
-printf("Buzz");
-i++;
-}
 else
+printf("Buzz");
+}
+if (!((i % 3 == 0) || (i % 5 == 0)))
 {
-printf("%d" , i);
-i++;
+printf("%d ", i);
 }
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
