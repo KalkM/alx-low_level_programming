@@ -2,16 +2,13 @@
 
 /**
  *  print_numbers - prints numbers
- *   Return: Nothing
+ *  Return: Nothing
  */
 
 void print_numbers(void)
 {
-int i = 0;
-while (i <= 9)
-{
+int i;
+for (i = 0; i < 10; i++)
 _putchar((char)(i + 48));
-i++;
-}
 _putchar('\n');
 }
