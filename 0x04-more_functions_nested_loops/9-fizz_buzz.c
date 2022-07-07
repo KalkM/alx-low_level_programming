@@ -7,7 +7,7 @@
 int main(void)
 {
 int i = 1;
-while (i<=100)
+while (i <= 100)
 {
 if ((i % 15) == 0)
 {
@@ -26,8 +26,8 @@ i++;
 }
 else
 {
-printf("%d",i);
-printf(" ";
+printf("%d", i);
+printf(" ");
 i++;
 }
 }
