@@ -31,5 +31,5 @@ printf(" ");
 i++;
 }
 }
-return;
+return (0);
 }
