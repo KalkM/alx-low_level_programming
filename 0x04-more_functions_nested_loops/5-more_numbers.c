@@ -18,9 +18,8 @@ _putchar((char)(j / 10 + 48 ));
 _putchar ((char)(j % 10 + 48));
 }
 i++;
-putchar('\n');
+_putchar('\n');
 }
 if (i== 10)
-_putchar('\n');
 return;
 }
