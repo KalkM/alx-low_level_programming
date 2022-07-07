@@ -25,7 +25,10 @@ printf("Buzz ");
 i++;
 }
 if (i == 100)
+{
 printf("Buzz");
+i++;
+}
 else
 {
 printf("%d", i);
