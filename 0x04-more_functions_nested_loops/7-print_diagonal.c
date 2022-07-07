@@ -19,7 +19,7 @@ _putchar(' ');
 }
 if (n > 0)
 {
-_putchar('\');
+_putchar((char)92);
 _putchar('\n');
 }
 }
