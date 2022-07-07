@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - print the first 50 fibonacci numbers.
+* main - print the numbers 1 to 100 with fizz buzz.
 * Return: Nothing.
 */
 
@@ -31,11 +31,10 @@ i++;
 }
 else
 {
-printf("%d", i);
-printf(" ");
+printf("%d" , i);
 i++;
 }
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
