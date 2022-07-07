@@ -7,22 +7,22 @@
 
 void print_most_numbers(void)
 {
-char c = '0';
+int i = 0;
 int n;
 n = 0;
 while (n != 8)
 {
-if (c == '2')
+if (i == 2)
 {
-c++;
+i++;
 }
-if (c == '4')
+if (i == 4)
 {
-c++;
+i++;
 }
-_putchar (c);
+_putchar ((char)(i + 48));
 n++;
-c++;
+i++;
 if (n == 8)
 _putchar ('\n');
 }
