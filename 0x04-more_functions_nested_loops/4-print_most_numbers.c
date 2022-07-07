@@ -12,14 +12,8 @@ int n;
 n = 0;
 while (n != 8)
 {
-if (i == 2)
-{
+if ((i == 2) || (i == 4))
 i++;
-}
-if (i == 4)
-{
-i++;
-}
 _putchar ((char)(i + 48));
 n++;
 i++;
