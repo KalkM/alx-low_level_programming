@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-*main - prints numbers Fizz Buzz and FizzBuzz
-*Return: Nothing
+* main - print the first 50 fibonacci numbers.
+* Return: Nothing.
 */
 
 int main(void)
@@ -27,7 +27,7 @@ i++;
 else
 {
 printf("%d",i);
-putchar(" ";
+printf(" ";
 i++;
 }
 }
