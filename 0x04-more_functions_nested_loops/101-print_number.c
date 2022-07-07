@@ -12,7 +12,7 @@ if (n < 0)
 _putchar('-');
 i = i * (-1);
 }
-if (i < 10)
+if (i / 10)
 print_number(i / 10);
 _putchar((i % 10) + '0');
 }
