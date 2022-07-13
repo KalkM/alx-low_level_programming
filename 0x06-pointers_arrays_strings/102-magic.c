@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * infinite_add - prints 98
+ * Return: Nothing
+ */
 int main(void)
 {
 int n;
